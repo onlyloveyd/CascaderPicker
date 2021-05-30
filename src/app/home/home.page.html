@@ -1,0 +1,11 @@
+<ion-header translucent>
+  <ion-toolbar>
+    <ion-title>Picker</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen class="ion-padding">
+  <ion-button expand="block" (click)="openPicker()">Show Single Column Picker</ion-button>
+  <ion-button expand="block" (click)="openPicker(2, 5, multiColumnOptions)">Show Multi Column Picker</ion-button>
+  <ion-button expand="block" (click)="openCascadePicker()">Show Cascade Column Picker</ion-button>
+</ion-content>
